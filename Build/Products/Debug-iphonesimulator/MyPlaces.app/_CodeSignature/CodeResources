@@ -4,13 +4,21 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>AppIcon60x60@2x.png</key>
+		<data>
+		34drapvAD4rdT8TTEAJsi6RF8mo=
+		</data>
+		<key>AppIcon76x76@2x~ipad.png</key>
+		<data>
+		08aks70bePHjhpJGKSMSmUvfPU0=
+		</data>
 		<key>Assets.car</key>
 		<data>
-		yBMPajS2RHSE2SxPKsuAK5Ho4j0=
+		qPokXQ6t2bZFJ6qf8qp3cURhc/Q=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		ZwOLcUYi8iKDFhw14bJEeZ7Kelw=
+		ahb1fkE5It2MOMhES737UrKpnpk=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -18,23 +26,23 @@
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		tz3kTW2v64WS3ADRXrvNbxe2dzg=
+		p9YpPBQNyNoZnBfNCLrEBHSGkw0=
 		</data>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
-		XfbgXFSlRLKoowA/jS8JmFUHVHU=
+		aVCpx5iyKoB8lIEuPBszb3xYUsg=
 		</data>
-		<key>Base.lproj/Main.storyboardc/UITableViewController-m96-WZ-KyY.nib</key>
+		<key>Base.lproj/Main.storyboardc/UINavigationController-TA2-gx-r9l.nib</key>
 		<data>
-		T/zm6iLWaQUN9CrttksXF0c9WkM=
+		9TrrpaTz1mqyhFNs17w1xbFZYyU=
 		</data>
 		<key>Base.lproj/Main.storyboardc/m96-WZ-KyY-view-fWA-JO-bZV.nib</key>
 		<data>
-		8oJJQv3EqJWLlNAl9JmrrnhxKaA=
+		f7ty5rErSKV9Iz+mMUH6Mnto9UU=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		MV3IR1msx+np5iUCR8LqschNBXk=
+		JSPRoHmDF/yGYPhNCA63bSi0Z0I=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -43,18 +51,32 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>AppIcon60x60@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			VF4M6ENJKd7ts9oSyxkmHEt/Wyx/p5StmpaeP6ggjjE=
+			</data>
+		</dict>
+		<key>AppIcon76x76@2x~ipad.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			fFsFMeU6uneM6VBEM9yaMtDHPe//Zi5mS0gw9lD+WgA=
+			</data>
+		</dict>
 		<key>Assets.car</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rXcDTkV8Nr+rebYuYNiLbBm5uLuAgch1HuSLMyQFvXQ=
+			62QVICfaMeg8GASeg7q/4B4Qvy5J5YY1THcaXdMhtx8=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			84e0qNw4Iz4i9v8ou+LkehzhXaMzpCXRKF2UANog4Bo=
+			f0fiGgit1GK5YY6ljKV4o6Gvx5uaoHuvQr4kxfBumLQ=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
@@ -68,28 +90,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZSCxASc/8plwCa1lhkOpMxuv1f97/c/y8way1g2mkIo=
+			5gEIf0FwiLtosjvKsA+9Cd6LP38bkCh0qplIJ40LqA0=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2DtDLUAlKl6oTCF1jPkRC1IvOsRowiL0YUUWpK5KxCM=
+			Orc9ro/MRpOljz21osVT6xOjr+2NT5mVpnNvca4+fik=
 			</data>
 		</dict>
-		<key>Base.lproj/Main.storyboardc/UITableViewController-m96-WZ-KyY.nib</key>
+		<key>Base.lproj/Main.storyboardc/UINavigationController-TA2-gx-r9l.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/iEU7BN/SdpNyy4iD8ar7CWzuRuPfkLuY+HFYRTOZGU=
+			L+fIMwAECKVe2ivJ0rRSnZKa81Tt19V4Q8I4psbLhb0=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/m96-WZ-KyY-view-fWA-JO-bZV.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1//Q+KhcOtO15min6rKgu7CS3zBYAPjJI4fE17OxTk0=
+			DaqwkIkxaPLJuFKt7HVbeEGhbEe7LY2ZPXuGdGJE4DI=
 			</data>
 		</dict>
 	</dict>

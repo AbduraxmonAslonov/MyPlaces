@@ -22,7 +22,7 @@ class ViewController: UITableViewController{
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("hello World")
+        
     }
     
     
@@ -34,8 +34,14 @@ class ViewController: UITableViewController{
            let cell = tableView.dequeueReusableCell(withIdentifier: "Cell")
            cell?.textLabel?.text = restaurantNames[indexPath.row]
         cell?.imageView?.image = UIImage(named: restaurantNames[indexPath.row])
+        cell?.imageView?.layer.cornerRadius = 85/2
+        cell?.imageView?.clipsToBounds = true
            return cell!
        }
+    //MARK: - tableView Delegate
+    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 85
+    }
 
 }
 
