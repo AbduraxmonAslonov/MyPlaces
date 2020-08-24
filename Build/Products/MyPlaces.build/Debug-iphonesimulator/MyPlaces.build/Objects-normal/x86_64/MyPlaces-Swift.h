@@ -219,6 +219,20 @@ SWIFT_CLASS("_TtC8MyPlaces11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UIImageView;
+@class UILabel;
+@class NSCoder;
+
+SWIFT_CLASS("_TtC8MyPlaces19CustomTableViewCell")
+@interface CustomTableViewCell : UITableViewCell
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified imageOfPlaces;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified nameLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified locationLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified typeLabel;
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class UIWindow;
 @class UIScene;
 
@@ -235,9 +249,7 @@ SWIFT_CLASS("_TtC8MyPlaces13SceneDelegate")
 @end
 
 @class UITableView;
-@class UITableViewCell;
 @class NSBundle;
-@class NSCoder;
 
 SWIFT_CLASS("_TtC8MyPlaces14ViewController")
 @interface ViewController : UITableViewController
