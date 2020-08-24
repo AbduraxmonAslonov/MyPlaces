@@ -1,0 +1,140 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CustomTableViewCell"
+provides-nominal:
+- "8MyPlaces19CustomTableViewCellC"
+provides-member:
+- ["8MyPlaces19CustomTableViewCellC", ""]
+provides-dynamic-lookup:
+- "imageOfPlaces"
+- "locationLabel"
+- "nameLabel"
+- "typeLabel"
+depends-top-level:
+- "CustomTableViewCell"
+- "UIImageView"
+- "UILabel"
+- "UITableViewCell"
+depends-member:
+- ["So15CALayerDelegateP", ""]
+- ["s7CVarArgP", ""]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", ""]
+- ["8MyPlaces19CustomTableViewCellC", "UIImageView"]
+- ["8MyPlaces19CustomTableViewCellC", "UILabel"]
+- ["8MyPlaces19CustomTableViewCellC", "deinit"]
+- ["8MyPlaces19CustomTableViewCellC", "imageOfPlaces"]
+- ["8MyPlaces19CustomTableViewCellC", "init"]
+- ["8MyPlaces19CustomTableViewCellC", "locationLabel"]
+- ["8MyPlaces19CustomTableViewCellC", "nameLabel"]
+- ["8MyPlaces19CustomTableViewCellC", "typeLabel"]
+- ["SQ", ""]
+- ["SH", ""]
+- ["So8NSCodingP", ""]
+- ["So8NSObjectC", "UIImageView"]
+- ["So8NSObjectC", "UILabel"]
+- ["So8NSObjectC", "imageOfPlaces"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "locationLabel"]
+- ["So8NSObjectC", "nameLabel"]
+- ["So8NSObjectC", "typeLabel"]
+- ["So8NSObjectP", ""]
+- ["So29UIAccessibilityIdentificationP", ""]
+- ["So12UIAppearanceP", ""]
+- ["So21UIAppearanceContainerP", ""]
+- ["So17UICoordinateSpaceP", ""]
+- ["So13UIDynamicItemP", ""]
+- ["So18UIFocusEnvironmentP", ""]
+- ["So11UIFocusItemP", ""]
+- ["So20UIFocusItemContainerP", ""]
+- ["So27UIGestureRecognizerDelegateP", ""]
+- ["So24UILargeContentViewerItemP", ""]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So11UIResponderC", "UIImageView"]
+- ["So11UIResponderC", "UILabel"]
+- ["So11UIResponderC", "imageOfPlaces"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "locationLabel"]
+- ["So11UIResponderC", "nameLabel"]
+- ["So11UIResponderC", "typeLabel"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- ["So15UITableViewCellC", "UIImageView"]
+- ["So15UITableViewCellC", "UILabel"]
+- ["So15UITableViewCellC", ""]
+- ["So15UITableViewCellC", "imageOfPlaces"]
+- ["So15UITableViewCellC", "init"]
+- ["So15UITableViewCellC", "locationLabel"]
+- ["So15UITableViewCellC", "nameLabel"]
+- ["So15UITableViewCellC", "typeLabel"]
+- ["So18UITraitEnvironmentP", ""]
+- ["So23UIUserActivityRestoringP", ""]
+- ["So6UIViewC", "UIImageView"]
+- ["So6UIViewC", "UILabel"]
+- ["So6UIViewC", "imageOfPlaces"]
+- ["So6UIViewC", "init"]
+- ["So6UIViewC", "locationLabel"]
+- ["So6UIViewC", "nameLabel"]
+- ["So6UIViewC", "typeLabel"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", ""]
+depends-nominal:
+- "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "8MyPlaces19CustomTableViewCellC"
+- "SQ"
+- "SH"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- "So27UIGestureRecognizerDelegateP"
+- "So24UILargeContentViewerItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So15UITableViewCellC"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "fbefa0580c23d73a9b0ad94f0bfd6be6"
