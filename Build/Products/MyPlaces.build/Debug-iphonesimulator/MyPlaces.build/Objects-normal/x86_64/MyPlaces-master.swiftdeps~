@@ -1,8 +1,9 @@
 version: "Apple Swift version 5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)"
 options: "62d8a3850799b4039409150f5f7c84ab"
-build_time: [1598287301, 31267000]
+build_time: [1598386426, 686935000]
 inputs:
-  "/Users/apple/Desktop/MyPlaces/MyPlaces/ViewController.swift": [1598287300, 913550672]
+  "/Users/apple/Desktop/MyPlaces/MyPlaces/ViewController.swift": !dirty [1598386426, 616534424]
   "/Users/apple/Desktop/MyPlaces/MyPlaces/AppDelegate.swift": [1598280392, 313735886]
+  "/Users/apple/Desktop/MyPlaces/MyPlaces/PlaceModel.swift": [1598382146, 917698269]
   "/Users/apple/Desktop/MyPlaces/MyPlaces/CustomTableViewCell.swift": [1598287227, 404378203]
   "/Users/apple/Desktop/MyPlaces/MyPlaces/SceneDelegate.swift": [1598280392, 489084015]

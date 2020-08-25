@@ -13,6 +13,7 @@
 		18259C1B24F12EA800D4E1BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18259C1924F12EA800D4E1BB /* Main.storyboard */; };
 		18259C1D24F12EAA00D4E1BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18259C1C24F12EAA00D4E1BB /* Assets.xcassets */; };
 		18259C2024F12EAA00D4E1BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18259C1E24F12EAA00D4E1BB /* LaunchScreen.storyboard */; };
+		186D58C024F595B7003F913E /* PlaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186D58BF24F595B7003F913E /* PlaceModel.swift */; };
 		18C3976624F4210E00DEDEB4 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3976524F4210E00DEDEB4 /* CustomTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		18259C1C24F12EAA00D4E1BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18259C1F24F12EAA00D4E1BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18259C2124F12EAA00D4E1BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		186D58BF24F595B7003F913E /* PlaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceModel.swift; sourceTree = "<group>"; };
 		18C3976524F4210E00DEDEB4 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -61,6 +63,7 @@
 				18259C1324F12EA800D4E1BB /* AppDelegate.swift */,
 				18259C1524F12EA800D4E1BB /* SceneDelegate.swift */,
 				18259C1724F12EA800D4E1BB /* ViewController.swift */,
+				186D58BF24F595B7003F913E /* PlaceModel.swift */,
 				18259C1924F12EA800D4E1BB /* Main.storyboard */,
 				18C3976524F4210E00DEDEB4 /* CustomTableViewCell.swift */,
 				18259C1C24F12EAA00D4E1BB /* Assets.xcassets */,
@@ -143,6 +146,7 @@
 			files = (
 				18259C1824F12EA800D4E1BB /* ViewController.swift in Sources */,
 				18259C1424F12EA800D4E1BB /* AppDelegate.swift in Sources */,
+				186D58C024F595B7003F913E /* PlaceModel.swift in Sources */,
 				18C3976624F4210E00DEDEB4 /* CustomTableViewCell.swift in Sources */,
 				18259C1624F12EA800D4E1BB /* SceneDelegate.swift in Sources */,
 			);
