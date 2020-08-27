@@ -232,6 +232,26 @@ SWIFT_CLASS("_TtC8MyPlaces19CustomTableViewCell")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UITableView;
+@class NSBundle;
+
+SWIFT_CLASS("_TtC8MyPlaces22NewPlaceViewController")
+@interface NewPlaceViewController : UITableViewController
+- (void)viewDidLoad;
+- (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (nonnull instancetype)initWithStyle:(UITableViewStyle)style OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+
+@class UITextField;
+
+@interface NewPlaceViewController (SWIFT_EXTENSION(MyPlaces)) <UITextFieldDelegate>
+- (BOOL)textFieldShouldReturn:(UITextField * _Nonnull)textField SWIFT_WARN_UNUSED_RESULT;
+@end
+
 @class UIWindow;
 @class UIScene;
 
@@ -247,9 +267,7 @@ SWIFT_CLASS("_TtC8MyPlaces13SceneDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UITableView;
 @class UIStoryboardSegue;
-@class NSBundle;
 
 SWIFT_CLASS("_TtC8MyPlaces14ViewController")
 @interface ViewController : UITableViewController
