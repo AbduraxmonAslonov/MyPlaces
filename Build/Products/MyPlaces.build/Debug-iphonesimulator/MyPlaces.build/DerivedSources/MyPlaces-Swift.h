@@ -236,7 +236,8 @@ SWIFT_CLASS("_TtC8MyPlaces19CustomTableViewCell")
 @class NSBundle;
 
 SWIFT_CLASS("_TtC8MyPlaces22NewPlaceViewController")
-@interface NewPlaceViewController : UITableViewController
+@interface NewPlaceViewController : UITableViewController <UINavigationControllerDelegate>
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified imageOfPlaces;
 - (void)viewDidLoad;
 - (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
 - (nonnull instancetype)initWithStyle:(UITableViewStyle)style OBJC_DESIGNATED_INITIALIZER;
@@ -244,12 +245,16 @@ SWIFT_CLASS("_TtC8MyPlaces22NewPlaceViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-
-
 @class UITextField;
 
 @interface NewPlaceViewController (SWIFT_EXTENSION(MyPlaces)) <UITextFieldDelegate>
 - (BOOL)textFieldShouldReturn:(UITextField * _Nonnull)textField SWIFT_WARN_UNUSED_RESULT;
+@end
+
+@class UIImagePickerController;
+
+@interface NewPlaceViewController (SWIFT_EXTENSION(MyPlaces)) <UIImagePickerControllerDelegate>
+- (void)imagePickerController:(UIImagePickerController * _Nonnull)picker didFinishPickingMediaWithInfo:(NSDictionary<UIImagePickerControllerInfoKey, id> * _Nonnull)info;
 @end
 
 @class UIWindow;

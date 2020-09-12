@@ -8,8 +8,9 @@
 
 import UIKit
 
-class NewPlaceViewController: UITableViewController {
+class NewPlaceViewController: UITableViewController, UINavigationControllerDelegate {
 
+    @IBOutlet weak var imageOfPlaces: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.tableFooterView = UIView()
@@ -51,14 +52,23 @@ class NewPlaceViewController: UITableViewController {
    }
 
 //MARK: - work with Image
-extension NewPlaceViewController {
+extension NewPlaceViewController: UIImagePickerControllerDelegate {
     
     func chooseImagePicker(source: UIImagePickerController.SourceType){
         if UIImagePickerController.isSourceTypeAvailable(source) {
             let imagePicker = UIImagePickerController()
+            imagePicker.delegate = self
             imagePicker.allowsEditing = true
             imagePicker.sourceType = source
             present(imagePicker, animated: true, completion: nil)
         }
     }
+    
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+        imageOfPlaces.image = info[.editedImage] as? UIImage
+        imageOfPlaces.contentMode = .scaleAspectFill
+        imageOfPlaces.clipsToBounds = true
+        dismiss(animated: true)
+    }
+    
 }
